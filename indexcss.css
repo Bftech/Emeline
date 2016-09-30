@@ -1,0 +1,99 @@
+html, body {
+margin : 0;
+padding : 0;
+font-family : Avenir Next Condensed,"Lucida Sans Unicode", "Lucida Grande", sans-serif; /*j'ai choisie de mettre différente police dans le cas où certaines ne seraient pas connues de l'oridinateur employé*/
+background-image : url("jj10.jpg");
+
+}
+
+ul#menu li a {
+color : #FD6C9E;
+text-decoration : underline;
+}
+
+ul#menu li a:hover{
+color : #FF00FF;
+}
+
+a:hover {
+color : #FF00FF;
+}
+
+ul#menu li a:visited {
+color : #9932CC;
+}
+
+ul#menu li {
+display : inline;
+padding : 30px;
+font-size : 20pt;
+}
+ a{
+ color:#9932CC;
+ text-decoration : none;
+ }
+ 
+ a:visited {
+ color : #FD6C9E;
+ }
+ 
+.un{
+font-family : Brush Script MT, "Comic Sans MS", cursive, sans-serif;
+}
+
+
+
+#citations blockquote {
+	position: absolute;
+	opacity: 0;
+	overflow: hidden;
+	width: 100%;
+	font-size : 25pt;
+text-align : center;
+margin-top : 15%;
+}
+
+#citations blockquote {
+  animation: rotateCitations 24s linear infinite 0s;
+  text-align : center;
+}
+
+#citations blockquote:nth-child(2) { 
+	animation-delay: 6s; 
+	text-align : center;
+}
+
+#citations blockquote:nth-child(3) { 
+	animation-delay: 12s; 
+	text-align : center;
+}
+
+#citations blockquote:nth-child(4) { 
+	animation-delay: 18s; 
+	text-align : center;
+}
+
+
+
+@keyframes rotateCitations {
+    0% { opacity: 0; animation-timing-function: ease-in;}
+    5% {opacity: 1;}
+    20% { opacity: 1;}
+    25% { opacity: 0; }
+    100% { opacity: 0; }
+}
+
+
+.footer {
+float: right;
+text-align : right;
+margin-top : 650px;
+margin-right : 10px;
+font-size : 20pt;
+font-family : Brush Script MT,"Comic Sans MS", cursive, sans-serif;
+text-decoration : underline;
+color:#0000FF; /*couleur du texte dans un navigateur non webkit comme Firefox*/
+background: -webkit-gradient(linear, left top, right bottom, from(#0000FF), to(#00BFFF));
+    		-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent; /* Ajout d'un dégradé de couleur dans le texte pour les navigateurs webkit comme Google Chrome et Safari*/
+}

@@ -1,0 +1,65 @@
+html {
+height: 100%;
+}
+
+html, body {
+margin : 0px;
+padding : 0px;
+font-family : Avenir Next Condensed,"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+
+
+ul#menu li a {
+color : #FD6C9E;
+text-decoration : underline;
+}
+
+ul#menu li a:hover {
+color : #FF00FF;
+}
+
+ul#menu li a:visited {
+color : #9932CC;
+}
+
+ul#menu li {
+display : inline;
+padding : 30px;
+font-size : 20pt;
+}
+
+#moi {
+text-align : center;
+
+}
+
+p {
+font-size : 18pt;
+text-align : justify;
+margin-right : 10px;
+margin-left : 10px;
+}
+
+.liens li {
+font-size : 15pt;
+}
+
+a {
+color : #FD6C9E;
+text-decoration : none;
+}
+
+a:hover {
+color : #FF00FF;
+}
+
+a:visited {
+color : #9932CC;
+}
+
+.mail {
+text-align : center;
+font-size : 22pt;
+}
+
